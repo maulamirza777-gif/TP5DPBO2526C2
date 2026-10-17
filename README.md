@@ -46,31 +46,19 @@ Aplikasi ini terhubung ke MySQL lokal menggunakan parameter berikut:
 
 ### Skema dan Data SQL (`person.sql`)
 
-Gunakan skrip SQL berikut untuk membuat struktur basis data dan mengisinya dengan data awal:
 
-```sql
-CREATE DATABASE IF NOT EXISTS person;
-USE person;
+Berikut adalah tabel Markdown (format tabel GitHub) yang merepresentasikan struktur dari skrip SQL tersebut:
 
-CREATE TABLE `persontable` (
-  `id` varchar(6) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `year` int(11) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `category` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+### `persontable` Structure
 
-INSERT INTO `persontable` (`id`, `name`, `year`, `email`, `category`) VALUES
-('M001', 'John Stewart', 2026, 'Granny@gmail.com', 'LULUS'),
-('M003', 'Hal Jordan', 1983, 'HalJord@gmail.com', 'DIKELUARKAN'),
-('M002', 'MOGO', 1900, 'mogoandi@gmail.com', 'LULUS'),
-('M004', 'Meursault', 1933, 'absurd@gmail.com', 'LULUS'),
-('M005', 'King gondo', 1940, 'kg@gmail.com', 'MENGUNDURKAN DIRI'),
-('M006', 'JIA BAOYU', 2026, 'HL@gmail.com', 'MENGUNDURKAN DIRI'),
-('M007', 'Heathcliff', 1900, 'LintonsucksSSSSS@gmail.com', 'TIDAK LULUS');
-COMMIT;
+| Nama Kolom (Field) | Tipe Data | Boleh Kosong (Null) | Keterangan |
+| --- | --- | --- | --- |
+| `id` | `VARCHAR(6)` | NO | ID Unik Person |
+| `name` | `VARCHAR(50)` | NO | Nama Lengkap |
+| `year` | `INT(11)` | NO | Tahun |
+| `email` | `VARCHAR(50)` | NO | Alamat Email |
+| `category` | `VARCHAR(20)` | NO | Kategori Status |
 
-```
 
 ---
 
