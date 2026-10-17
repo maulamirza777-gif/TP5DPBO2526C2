@@ -1,3 +1,5 @@
+Saya Maula Mirza Ananda dengan NIM 2407087 mengerjakan Tugas Praktikum 3 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. 
+
 # Sistem Manajemen Person
 
 Aplikasi desktop berbasis Java Swing untuk mengelola data individu yang tersimpan di dalam basis data MySQL. Aplikasi ini menyediakan fungsi CRUD (Create, Read, Update, Delete) lengkap dengan antarmuka bertab dan pembaruan tabel secara dinamis.
