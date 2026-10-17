@@ -9,7 +9,7 @@ Aplikasi desktop berbasis Java Swing untuk mengelola data individu yang tersimpa
 ## Fitur Utama
 
 * **Tambah Data**: Menyimpan data baru berupa ID, Nama, Tahun, Email, dan Kategori. Sistem memvalidasi agar tidak ada bidang kosong atau ID ganda.
-
+<video src="./Dokumentasi/ADD.mp4" controls width="100%"></video>
 
 * **Cari & Edit Data**: Mencari data berdasarkan ID atau memilih baris langsung dari tabel untuk mengisi formulir penyuntingan.
 
@@ -23,13 +23,7 @@ Aplikasi desktop berbasis Java Swing untuk mengelola data individu yang tersimpa
 
 ---
 
-## Prasyarat System
 
-* **Java Development Kit (JDK)**: Versi 8 atau lebih baru
-* **MySQL Database Server**: E.g., via XAMPP, WampServer, atau MySQL Standalone
-* **MySQL Connector/J**: Driver JDBC `.jar` yang ditambahkan ke classpath proyek
-
----
 
 ## Konfigurasi Basis Data
 
